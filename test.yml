@@ -9,5 +9,7 @@ eureka:
 spring:
   application:
     name: eureka
+env:
+  l1
 
 
