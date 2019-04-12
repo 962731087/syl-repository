@@ -17,7 +17,7 @@ spring:
     password: 123456
 
 girl:
-  name: lili
+  name: honghong
   age: 15
 
 #   datasource:
