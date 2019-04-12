@@ -1,0 +1,43 @@
+eureka:
+  client:
+    registry-fetch-interval-seconds: 10
+#    healthcheck:
+#      enabled: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    lease-renewal-interval-in-seconds: 5
+    lease-expiration-duration-in-seconds: 15
+spring:
+  application:
+    name: user
+  
+  rabbitmq:
+    username: syl
+    password: 123456
+
+girl:
+  name: lili
+  age: 15
+
+#   datasource:
+
+#     driver-class-name: com.mysql.cj.jdbc.Driver
+#     username: root
+#     password: 123456
+#     url: jdbc:mysql://127.0.0.1:3306/mysql1?useUnicode=true&characterEncoding=utf8
+
+#     dbcp2:
+#       max-idle: 10
+#       max-wait-millis: 10000
+#       min-idle: 5
+#       initial-size: 5
+
+# server:
+#   port: 8081
+#mybatis-plus:
+#  mapper-locations: classpath:mapper/*.xml
+#  type-aliases-package: com.syl.user.entity
+
+env:
+  dev1
